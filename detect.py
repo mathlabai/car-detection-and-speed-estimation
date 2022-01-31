@@ -270,16 +270,12 @@ while True:
     cv2.line(frame, line1[0], line1[1], (0, 255, 255), 4)
     cv2.line(frame, line2[0], line2[1], (255, 0, 255), 2)
 
-    note_text = "NOTE: Vehicle speeds are calibrated only at yellow line. speed of cars are more stable."
-    cv2.putText(
-        frame, note_text, (50, 110), cv2.FONT_HERSHEY_DUPLEX, 1.0, (0, 0, 255), 2
-    )
     # draw counter
     counter_text = "counter:{}".format(counter1)
     counter2_text = "counter2:{}".format(counter2)
 
     cv2.putText(
-        frame, counter_text, (100, 250), cv2.FONT_HERSHEY_DUPLEX, 4.0, (0, 0, 255), 5
+        frame, counter_text, (100, 250), cv2.FONT_HERSHEY_DUPLEX, 4.0, (0, 255, 255), 5
     )
     cv2.putText(
         frame,
@@ -287,7 +283,7 @@ while True:
         counter2_text,
         (100, 400),
         cv2.FONT_HERSHEY_DUPLEX,
-        5.0,
+        4.0,
         (255, 0, 255),
         5,
     )
