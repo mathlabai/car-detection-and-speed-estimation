@@ -1,7 +1,7 @@
 # To run the project:
 
 1. Clone the repo with 
-``` git clone https://github.com/alisrbdni/car-detection-speed-estimation ``` in the terminal
+``` git clone https://github.com/mathlabai/car-detection-and-speed-estimation.git ``` in the terminal
 
 2. Download yolo weights with running download_yolo_weights``` sh download_yolo_weights.sh ```
    or manually download and place weights in yolo-coco from https://pjreddie.com/media/files/yolov3.weights
