@@ -1,8 +1,6 @@
 # Car detection and speed estimation
 
 
-# To run the project:
-
 1. Clone the repo with <br>
 ``` git clone https://github.com/mathlabai/car-detection-and-speed-estimation.git ``` in the terminal
 
