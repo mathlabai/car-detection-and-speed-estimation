@@ -8,4 +8,4 @@
 
 3. Make sure you change the line of detection according to your video and fine tune the threshold and confidence for YOLO model
 
-4. Run ```python detect.py -i video_01.mp4  -o out_video_01.avi -y yolo-coco ``` 
+4. Run ```python detect.py -i video_01.mp4  -o out_video_01.avi -y yolo-coco -c 0.5``` 
