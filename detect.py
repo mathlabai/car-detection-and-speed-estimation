@@ -271,8 +271,8 @@ while True:
     cv2.line(frame, line2[0], line2[1], (255, 0, 255), 2)
 
     # draw counter
-    counter_text = "counter:{}".format(counter1)
-    counter2_text = "counter2:{}".format(counter2)
+    counter_text = "{}".format(counter1)
+    counter2_text = "{}".format(counter2)
 
     cv2.putText(
         frame, counter_text, (100, 250), cv2.FONT_HERSHEY_DUPLEX, 4.0, (0, 255, 255), 5
