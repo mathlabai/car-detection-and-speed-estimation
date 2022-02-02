@@ -242,7 +242,7 @@ while True:
                 final_pix_dist = math.sqrt(
                     (y_pix_dist * y_pix_dist) + (x_pix_dist * x_pix_dist)
                 )
-                speed = np.round(1.5 * y_pix_dist, 2)
+                speed = np.round(3 * y_pix_dist, 2)
                 text_speed = "{} km/h".format(abs(speed))
                 cv2.putText(
                     frame,
